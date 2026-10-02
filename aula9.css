@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  margin: 0 0 4px 0;
+  margin: 0 0 14px 0;
 }
 
 .subtitulo {
@@ -42,12 +42,8 @@ h1 {
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
-  transition: background-color 0.3s ease;
 }
 
-.botao-cor:hover {
-  background-color: #f9a828;
-}
 
 /* ---------- Exemplo 2 — card que sobe e cresce ---------- */
 .card-sobe {
@@ -56,24 +52,10 @@ h1 {
   padding: 20px;
   width: 260px;
   text-align: center;
-  transition: transform 0.2s ease;
 }
 
-.card-sobe:hover {
-  transform: translateY(-8px) scale(1.05);
-}
 
-/* ---------- Exemplo 3 — elemento que aparece (keyframes, 2 estados) ---------- */
-@keyframes aparecer {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+/* ---------- Exemplo 3 — elemento que aparece  ---------- */
 
 .caixa-aparece {
   background-color: #1c7293;
@@ -81,5 +63,5 @@ h1 {
   padding: 20px;
   width: 260px;
   text-align: center;
-  animation: aparecer 5s ease;
+
 }
